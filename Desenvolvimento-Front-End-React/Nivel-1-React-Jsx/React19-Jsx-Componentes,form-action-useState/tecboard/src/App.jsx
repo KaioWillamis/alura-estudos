@@ -1,14 +1,16 @@
 import './App.css'
+import FormularioDeEvento from './components/formularioDeEvento'
 
 function App() {
   return (
     <main>
         <header>
-          <img src="./public/logo.png" alt="" />
+          <img src="/LogoBranca.png" alt="" />
         </header>
         <section>
-          <img src="./public/banner.png" alt="" />
+          <img src="/Hero image com texto_Md.png" alt="" />
         </section>
+        <FormularioDeEvento />
     </main>
   )
 }
