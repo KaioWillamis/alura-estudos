@@ -32,6 +32,7 @@ form{
     background-color: white;
     padding: 15px;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 
 fieldset{
@@ -71,4 +72,32 @@ input[type="radio"], input[type="checkbox"]{
 input[type="color"]{
     width: 40px;
     padding: 0 5px;
+}
+
+input:invalid, select:invalid, textarea:invalid{
+    border-color: red;
+}
+
+input:valid, select:valid, textarea:valid{
+    border-color: green;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: green;
+    color: white;
+}
+
+button[type="reset"]:hover{
+    background-color: orangered;
+    color: white;
 }
