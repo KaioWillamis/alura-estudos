@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f9f9;
+    font-family: "Work Sans", sans-serif;
+}
+
+main{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100px;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-family: "Fjalla One", sans-serif;
+}
+
+form{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+fieldset{
+    padding: 15px;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+textarea{
+    min-height: 100px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: auto;
+}
+
+input[type="color"]{
+    width: 40px;
+    padding: 0 5px;
+}
