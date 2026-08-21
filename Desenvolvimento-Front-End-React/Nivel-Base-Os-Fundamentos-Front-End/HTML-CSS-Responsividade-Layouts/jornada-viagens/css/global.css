@@ -4,8 +4,8 @@ Cores de textos*/
 
 :root {
   --brackground-primary-color: #ffffff;
-  --brackground-primary-color: #f5f5f5;
-  --brackground-primary-color: #000000;
+  --brackground-secondary-color: #f5f5f5;
+  --brackground-tertiary-color: #000000;
 
   --primary-color: #8f0101;
   --secondary-color: #b81515;
