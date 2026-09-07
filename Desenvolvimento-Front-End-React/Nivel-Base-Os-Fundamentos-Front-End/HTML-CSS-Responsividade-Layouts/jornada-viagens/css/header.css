@@ -1,6 +1,4 @@
 header{
-    width: 100%;
-    height: 138px;
     background-color: var(--brackground-tertiary-color);
     display: flex;
     flex-direction: row;
@@ -17,6 +15,10 @@ header{
 
 .navigation-menu{
     margin-top: 24px;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    display: block;
 }
 
 nav{
