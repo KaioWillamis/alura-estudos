@@ -1,0 +1,24 @@
+.hero-img{
+   width: 100%;
+    height: 400px;
+    background-image: url("../img/banner-home-pag-moba.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px){
+    .hero-img{
+        height: 620px;
+        background-image: url(" ../img/banner-home-pag-tablet.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .hero-img{
+        background-image: url("../img/banner-home-pag-desktop.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
