@@ -46,4 +46,26 @@ select {
 
 body{
     font-family: 'Montserrat', sans-serif;
+    color: var(--text-primary-color);
+}
+
+.section-title{
+  font-size: 23px;
+  font-weight: var(--titles-weight);
+  margin: 0;
+  text-align: center;
+}
+
+.section-title hr{
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px ;
+}
+
+@media screen and (min-width: 768px){
+  .section-title{
+    font-size: 32px;
+  }
 }
