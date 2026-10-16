@@ -18,4 +18,30 @@ const livro = {
 livro.publicado = true
 livro.idiomas = [
     'Ingles', 'Portugues', 'Espanhol'
-]
+];
+
+livro.idiomas.push('Mandarim');
+livro.idiomas.push('Francês');
+
+console.log('Livro antes: ', livro);
+
+delete livro.paginas;
+
+console.log('Livro depois: ', livro);
+
+console.log('Autor do livro: ', livro['autor']);
+
+const autor = {
+    nome: 'J R R Tolkien',
+    nacionalidade: 'Britanico',
+    idade: 98
+}
+
+console.log('Autor', autor);
+
+livro.autor = autor;
+
+console.log(livro);
+
+livro.autor.nome;
+livro.autor.nacionalidade;
